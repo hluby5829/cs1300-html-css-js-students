@@ -2,6 +2,20 @@
   background-color: lightblue;
 }
 
-.gallery-container {
+body {
+  height: 100vh;
+  background-color: lightblue;
+  padding-bottom: 5%;
+}
+
+.gallery-item-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  height: 50vh;
+  width: 350px;
 }
